@@ -5,6 +5,7 @@
  */
 package model;
 
+
 /**
  *
  * @author Jorge Antonio
@@ -73,4 +74,8 @@ public class Juego {
         return texto;
     }
     
+    // Metodo de nombre getNumeroSecreto()
+    public int getNumeroSecreto() {
+        return this.numeroSecreto.getNumeroSecreto();
+    }
 }

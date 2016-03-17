@@ -1,10 +1,14 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Laboratorio 1
+ * Proyecto adivina el numero secreto
+ * Matricula 15470297
+ * Jorge Antonio Nicolas Morales
+ * Grupo: MS2
+ * 13 de Marzo de 2016
  */
 package adivinaelnumerosecreto;
 import java.util.Scanner;
+import model.Juego;
 
 /**
  *
@@ -16,10 +20,10 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        //Modificacion del metodo Main
+        // Modificacion del metodo Main
         Scanner entrada = new Scanner(System.in);
         int numero;
-        boolean seAdivinoElNumeoSecreto = false;
+        boolean seAdivinoElNumeroSecreto = false;
         Juego juego = new Juego(1, 100, 5);
         while (juego.puedeIntentarDeNuevo() == true
                 && !seAdivinoElNumeroSecreto) {
@@ -37,7 +41,5 @@ public class Main {
             }
         }
         System.out.println("El numero secreto es " + juego.getNumeroSecreto());
-        
     }
-    
 }
