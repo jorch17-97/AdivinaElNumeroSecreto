@@ -11,7 +11,6 @@ import java.util.Scanner;
 import model.Juego;
 
 /**
- *
  * @author Jorge Antonio
  */
 public class Main {
